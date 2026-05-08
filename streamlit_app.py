@@ -1,3 +1,9 @@
+import streamlit as st
+import pandas as pd
+import google.generativeai as genai
+import requests
+
+# Zbytek kódu následuje pod tím...
 # --- MODUL: AUKČNÍ HLÍDAČ ---
 
 def check_auction_profitability(auction_price, market_price_avg):
